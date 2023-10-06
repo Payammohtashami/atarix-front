@@ -1,5 +1,7 @@
+"use client";
 // main library
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
 // font
 import { Poppins } from "next/font/google";
@@ -13,10 +15,16 @@ const poppins = Poppins({
 });
 
 function RootLayout({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    AOS.init({
+      easing: 'ease-out-quad',
+      duration: 1000,
+    });
+  }, [])
   return (
     <html lang="en">
       <body className={poppins.className}>
-        {children}
+          {children}
       </body>
     </html>
   )
