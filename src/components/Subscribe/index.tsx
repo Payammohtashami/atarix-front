@@ -2,7 +2,7 @@ import React from 'react';
 
 const Subscribe = () => {
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
             <div className='flex justify-center items-center flex-col'>
                 <div className='text-center' data-aos="fade-up" data-aos-duration="800">
                     <h5 className='text-cyan-300 text-3xl' data-aos="fade-up" data-aos-duration="800">Subscribe</h5>

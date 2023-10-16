@@ -2,7 +2,7 @@ import React from 'react';
 
 const GamingExperience: React.FC = () => {
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
             <div className='flex p-8 md:grid-cols-2 items-center md:pt-12 gap-24 md:grid flex-col-reverse'>
                 <div className='flex justify-center col-span-1' data-aos="fade-right" data-aos-duration="800">
                     <img src='/images/backgrounds/experience.png' alt="" className='z-10 max-w-2xl w-full' />

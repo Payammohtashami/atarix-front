@@ -4,12 +4,17 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GamingExperience from '@/components/GamingExperience';
 import ArtistFriendly from '@/components/ArtistFriendly';
-import Explore from '@/components/Explore';
 import BuyToken from '@/components/BuyToken';
 import CraftWorlds from '@/components/CraftWorlds';
 import Subscribe from '@/components/Subscribe';
 import GameList from '@/components/GameList';
+import { Metadata } from 'next';
 
+
+export const metadata: Metadata = {
+    title: 'Atarix',
+    description: 'Chat with AI to Create Your Game!'
+}
 const HomePage = () => {
     return (
         <div>
@@ -19,7 +24,6 @@ const HomePage = () => {
             <GamingExperience />
             <CraftWorlds />
             <ArtistFriendly />
-            {/* <Explore /> */}
             <BuyToken />
             <Subscribe />
             <Footer />

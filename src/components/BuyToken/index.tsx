@@ -2,7 +2,7 @@ import React from 'react';
 
 const BuyToken = () => {
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto mb-16'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto mb-16'>
             <div className='flex overflow-hidden rounded-2xl relative mt-32'>
                 <div className='absolute bg-slate-50'>
                     <img src='/images/backgrounds/buyToken.webp' className='w-full' alt="" />

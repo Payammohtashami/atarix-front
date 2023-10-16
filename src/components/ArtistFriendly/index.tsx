@@ -30,7 +30,7 @@ const ArtistFriendly: React.FC = () => {
         },
     ];
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto'>
             <div className='my-32'>
                 <h4 className='text-center font-semibold text-4xl'>Fast, Easy and <span className='text-cyan-300'>Artist Friendly</span></h4>
                 <div className='items-center grid grid-cols-1 md:grid-cols-12'>

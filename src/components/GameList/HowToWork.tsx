@@ -2,7 +2,7 @@ import React from 'react';
 
 const HowToWork = () => {
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
             <div data-aos="fade-up" data-aos-duration="600" className='max-w-lg'>
                 <h4 className='text-cyan-300 text-5xl' data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">How it works?</h4>            
                 <p className='text-lg text-slate-400 mt-4 mb-8 font-medium' data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">

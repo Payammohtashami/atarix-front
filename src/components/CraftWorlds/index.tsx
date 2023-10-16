@@ -23,7 +23,7 @@ const CraftWorlds = () => {
         },
     ]
     return (
-        <div className='container md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
+        <div className='container px-4 md:px-8 lg:px-20 xl:px-32 mx-auto mb-32'>
             <div className='flex justify-center items-center' data-aos="fade-up" data-aos-duration="800"> 
                 <h3 className='font-semibold text-center text-3xl max-w-md'>Craft Worlds <span className='text-cyan-300'>in Minutes</span> Not Months</h3>
             </div>
